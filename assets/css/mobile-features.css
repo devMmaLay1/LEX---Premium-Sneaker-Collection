@@ -1,0 +1,206 @@
+/* ===== MOBILE FEATURES FIX ===== */
+
+/* Force mobile-first responsive behavior */
+@media (max-width: 768px) {
+    .features-section {
+        padding: 3rem 0 !important;
+    }
+    
+    .features-container {
+        padding: 0 1rem !important;
+        max-width: 100% !important;
+    }
+    
+    .features-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+        margin-top: 2rem !important;
+    }
+    
+    /* Reset all feature cards for mobile */
+    .feature-card,
+    .feature-card--image,
+    .feature-card--icon,
+    .feature-card--gradient,
+    .feature-card--minimal,
+    .feature-card--eco,
+    .feature-card--tech {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 280px !important;
+        padding: 1.5rem !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+    
+    /* Image cards mobile fix */
+    .feature-card--image {
+        min-height: 320px !important;
+        padding: 0 !important;
+    }
+    
+    .feature-card--image .feature-content {
+        padding: 1.5rem !important;
+        height: auto !important;
+        justify-content: flex-end !important;
+    }
+    
+    .feature-bg-image {
+        height: 100% !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+    
+    /* Icon cards mobile fix */
+    .feature-icon-large {
+        width: 60px !important;
+        height: 60px !important;
+        margin: 0 auto 1rem !important;
+    }
+    
+    .feature-icon-large i {
+        font-size: 24px !important;
+    }
+    
+    /* Gradient cards mobile fix */
+    .delivery-timeline {
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        padding: 0.75rem !important;
+        gap: 0.5rem !important;
+    }
+    
+    .timeline-item {
+        flex: 1 !important;
+        text-align: center !important;
+    }
+    
+    /* Typography mobile fix */
+    .features-title {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+    }
+    
+    .features-subtitle {
+        font-size: 1rem !important;
+        padding: 0 1rem !important;
+    }
+    
+    .feature-headline {
+        font-size: 1.25rem !important;
+        line-height: 1.3 !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .feature-description {
+        font-size: 0.875rem !important;
+        line-height: 1.4 !important;
+    }
+    
+    /* Stats and metrics mobile fix */
+    .feature-stats {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+        text-align: center !important;
+    }
+    
+    .comfort-metrics {
+        justify-content: space-around !important;
+        gap: 1rem !important;
+    }
+    
+    .eco-stats {
+        gap: 0.75rem !important;
+    }
+    
+    .tech-features {
+        justify-content: center !important;
+        gap: 0.5rem !important;
+    }
+    
+    .tech-tag {
+        font-size: 0.75rem !important;
+        padding: 0.25rem 0.5rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .features-section {
+        padding: 2rem 0 !important;
+    }
+    
+    .features-container {
+        padding: 0 0.75rem !important;
+    }
+    
+    .features-grid {
+        gap: 1rem !important;
+        margin-top: 1.5rem !important;
+    }
+    
+    .feature-card,
+    .feature-card--image,
+    .feature-card--icon,
+    .feature-card--gradient,
+    .feature-card--minimal,
+    .feature-card--eco,
+    .feature-card--tech {
+        min-height: 240px !important;
+        padding: 1rem !important;
+        gap: 0.75rem !important;
+    }
+    
+    .feature-card--image {
+        min-height: 280px !important;
+    }
+    
+    .feature-card--image .feature-content {
+        padding: 1rem !important;
+    }
+    
+    .features-title {
+        font-size: 1.75rem !important;
+    }
+    
+    .features-subtitle {
+        font-size: 0.875rem !important;
+        padding: 0 0.5rem !important;
+    }
+    
+    .feature-headline {
+        font-size: 1.125rem !important;
+    }
+    
+    .feature-description {
+        font-size: 0.8rem !important;
+    }
+    
+    .feature-icon-large {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    
+    .feature-icon-large i {
+        font-size: 20px !important;
+    }
+    
+    .delivery-timeline {
+        padding: 0.5rem !important;
+    }
+    
+    .comfort-metrics {
+        gap: 0.75rem !important;
+    }
+    
+    .metric-value {
+        font-size: 1.125rem !important;
+    }
+    
+    .metric-label {
+        font-size: 0.7rem !important;
+    }
+}
