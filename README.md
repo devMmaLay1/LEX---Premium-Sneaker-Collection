@@ -76,7 +76,7 @@ LEX/
 ### **Development Tools**
 | Tool | Purpose | Usage |
 |------|---------|-------|
-| **Kiro IDE** | Development Environment | Code editing, file management |
+| **VSC IDE** | Development Environment | Code editing, file management |
 | **Git** | Version Control | Source code management |
 | **Browser DevTools** | Debugging | Performance optimization, responsive testing |
 
@@ -324,5 +324,6 @@ For support, email support@lexshoes.com or join our Slack channel.
 ---
 
 **Built with ❤️ by the UIXROA Team**
+
 
 *LEX - Where Style Meets Innovation*
